@@ -38,8 +38,21 @@ Flöde: Sidan ska kännas som en single-page application (SPA) där användaren 
 
 
 Gustavs punkter:
+  Researcha sqllite:
+  Vad är sqllite, hur fungerar det, hur används det och hur kopplar jag det?  
 
+  Skapa sqllite fil:
+    Skapa filen / tabeller
+    Medelande historik:  
+      namn, vad som skickades, timestamp
 
+  Lägga upp projektet(folder) på subdomän samt fixa eventuella fel som uppstår.  
+
+  Titta vilka som är online samt hur många som är online:
+    Researcha hur man gör / kollar mängden trafik.  
+    Displaya hur många som är online.  
+
+      
 Aleksanders punkter:
 1. fixa med ajax så att medellanden ska kunna visas utan att refresha sidan, detta ska uppdateras var 3 sekund.
 
