@@ -54,6 +54,8 @@ Gustavs punkter:
 
       
 Aleksanders punkter:
-1. fixa med ajax så att medellanden ska kunna visas utan att refresha sidan, detta ska uppdateras var 3 sekund.
+1. researcha sqlite 
 
 2. koppla med sqlite databasen 
+
+3. uppdatera sidan var 3 sekund för att kunna se nya meddelanden
