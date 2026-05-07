@@ -2,6 +2,12 @@
 
 
 Planering:
+
+Allmänna punkter:
+
+Vad blir DB:n? Tänker vi oss en .json text fil typ där vi sparar vilken användare det är vad de skrivit, svaret och tiden det skedde. Eller gör vi en databas på riktigt som vi sparar ner det?
+
+
 Alvins punkter:
 1. Botens kärnfunktionalitet (Logik)Mål: Att agera som ett interaktivt uppslagsverk för kemiska formler.
   
