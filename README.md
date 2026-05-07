@@ -3,20 +3,31 @@
 
 Planering:
 Alvins punkter:
-Boten:
-Mål: Boten ska ta emot indata och responda med utdata där indatan är ämnet och utdatan är den kemiska förtecknignen
+1. Botens kärnfunktionalitet (Logik)Mål: Att agera som ett interaktivt uppslagsverk för kemiska formler.
+  
+Indata: Användaren skriver in namnet på ett kemiskt ämne (t.ex. "Metan").
 
-Svara med Json när man för in ett ämne i dialogrutan och få med förteckningen på ämnet underifrån
+Utdata: Systemet returnerar korrekt kemisk beteckning (t.ex. "CH4").
 
-Dialogrutan:
-Målet: Fixa en dialogruta där folk kan skriva och få svar av boten samt se andras svar.
+Dataformat: All kommunikation mellan klient och server ska ske via JSON för att säkerställa strukturerad dataöverföring.
 
-Skriv in i rutan tryck på skicka och så ska det visas för alla som är på sidan. 
-Meddelandet ska displaya användarnamnet bredvid och botens svar ska stå bredvid inputen användaren skrivit
+2. Användargränssnitt & Dialog (Frontend)
 
-Gränssnitt:
-Målet : Ska visa en tydlig väg igenom sidan där användaren lätt kan ta sig från punkt a till b utan krångel
-Visa en framsida där det finns info om servicen samt ett sätt att skriva in sitt användarnamn och knappen som för en till boten/forumet?
+Interaktionsmodell: En dialogruta (chattfönster) där användaren skriver sitt ämne.
+
+Visningsläge: När ett meddelande skickas ska det renderas i en gemensam vy där man ser:Användarnamn: Ämne $\rightarrow$ Botens svar (Formel)
+
+Gemensamt flöde: Genom att använda AJAX i kombination med Polling (att sidan frågar servern efter nya uppdateringar var tredje sekund) kan användare se varandras frågor och svar i realtid utan att ladda om sidan.
+
+3. Navigering & UX (User Experience)
+
+Landing Page (Framsida): En ren och tydlig välkomstsida med:Kort instruktion om tjänsten.
+
+Ett formulär för att välja sitt användarnamn.
+
+En tydlig "Call-to-Action"-knapp som tar användaren direkt till chattgränssnittet.
+
+Flöde: Sidan ska kännas som en single-page application (SPA) där användaren smidigt rör sig från namngivning till interaktion utan onödiga mellansteg.
 
 
 
