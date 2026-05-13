@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enter Username</title>
+    <link rel="stylesheet" href="kemichatt.css">
 </head>
 <body>
-    <h1>Enter Your Username</h1>
+    <h1>Enter Your Username:</h1>
     <form action="welcome.php" method="post">
-        <label for="username">Username:</label>
+        <label for="username"></label>
         <input type="text" name="username" id="username" required>
         <input type="submit" value="Submit">
     </form>
+
+    <a href="alvin.html">Learn More</a>
 </body>
 </html>
