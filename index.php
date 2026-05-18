@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,5 @@
         <input type="text" name="username" id="username" required>
         <input type="submit" value="Submit">
     </form>
-
-    <a href="alvin.html">Learn More</a>
 </body>
 </html>
